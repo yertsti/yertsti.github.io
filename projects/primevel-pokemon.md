@@ -13,7 +13,7 @@ summary: "A crude UI that simulates catching Pokemon."
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Whoa
+This project was my final project for ICS 211 (Intro to Programming II) and it was also my first time working with a team to develop a piece of software. 
 <hr>
 
 <pre>
