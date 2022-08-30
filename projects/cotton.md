@@ -2,13 +2,13 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "Prehistoric Pokemon"
+date: 2021
 published: true
 labels:
-  - Lisp
+  - Java
   - GitHub
-summary: "A text adventure game I developed for ICS 313."
+summary: "A crude UI that simulates catching Pokemon."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
