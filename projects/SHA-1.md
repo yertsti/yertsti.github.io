@@ -2,16 +2,17 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Prehistoric Pokemon"
+title: "SHA-1 Implementation"
 date: 2021
 published: true
 labels:
-  - Java
-  - GitHub
-summary: "A crude UI that simulates catching Pokemon."
+  - C
+summary: "Implementing SHA-1 hashing algorithm in C"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
+
+This was the final project for ICS 212, a class about program structures. All of our assignments were done in either C or C++ on a UH hosted unix server via the terminal. This is also where we get to choose our camps of either Vim or Emacs. I personally liked vim more, but it might just be because we learned it first. Before we could implement SHA-1 we had to learn what SHA-1 is. It is a hashing algorithm. Hashing algorithms deterministically convert any length input into a fixed length output. An ideal hashing algorithm will always return a unique hashed output from an input. This was the case for SHA-1 until recently in 2017 when it was broken be causing a collisions (the same output from two seperate inputs).
 
 This project was my final project for ICS 211 (Intro to Programming II) and it was also my first time working with a team to develop a piece of software. The purpose of this project was to apply everything that we learned up to that point in one comprehensive project. This includes things like binary search trees to search for your caught Pokemon, object heiarchy be creating a sub Pokemon from a base template Pokemon class and, in my opinion, the most important part was using Github to collaborate with our team mates. All of this was painfully packaged through GUI made with JFrames.
 
