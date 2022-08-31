@@ -10,7 +10,7 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/starting-js/JavaScript-logo.png">
 ## Accidentally Learning JavaScript
 My introduction to JavaScript was quite the interesting one. When I was younger I did not have much interest in programming, but I did play a concerning amount of video games, one of which being Minecraft.  I wanted to make a mod for Minecraft, but to do so I first had to figure out what language Minecraft was made from. In my infinite wisdom I thought Minecraft was built from JavaScript because I saw a single JSON (JavaScript Object Notation) file in the Minecraft directory. So, I went on the standard programming self study course of Youtube tutorials and websites like *freecodecamp.com*. Eventually, I thought that I knew enough to creat a mod for Minecraft, but it all came crashing down when it turns out, Minecraft is written in Java not JavaScript. Without wind in my sails, I put down programming for half a decade until I decided to major in Computer Science. The first lanague I learned was Java and now JavaScript
 
