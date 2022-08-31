@@ -2,25 +2,23 @@
   "basics": {
     "name": "Trey Yasunaga",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
+    "picture": "https://github.com/yertsti.png",
     "email": "treyyy@hawaii.edu",
     "phone": "808-636-3396",
     "website": "https://yertsti.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { /*"address": "",*/ "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "yertsti", "url": "http://github.com/yertsti" },
-      { "network": "linkedin", "username": "treyyasunaga", "url": "http://linkedin.com/in/trey-yasunaga" },
+      { "network": "linkedin", "username": "treyyasunaga", "url": "http://linkedin.com/in/trey-yasunaga" }/*,
       { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }*/
     ]
   },
   "interests": [
     { "name": "Web Development" },
     { "name": "Game Development" },
-    { "name": "Artifical Inteligence" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Artifical Inteligence" }
   ],
   "skills": [
     {
@@ -29,7 +27,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Unix", "Git/GitHub", "g++"]
     }
   ],
   "education": [
@@ -43,7 +41,7 @@
       ]
     }
   ],
-  "work": [
+  /*"work": [
     {
       "company": "UH Manoa Board of Publications",
       "position": "Web Developer",
@@ -95,7 +93,7 @@
         "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
-  ],
+  ]*/,
   "awards": [
     {
       "title": "B+ Scholarship",
