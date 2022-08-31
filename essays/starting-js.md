@@ -15,11 +15,25 @@ labels:
 My introduction to JavaScript was quite the interesting one. When I was younger I did not have much interest in programming, but I did play a concerning amount of video games, one of which being Minecraft.  I wanted to make a mod for Minecraft, but to do so I first had to figure out what language Minecraft was made from. In my infinite wisdom I thought Minecraft was built from JavaScript because I saw a single JSON (JavaScript Object Notation) file in the Minecraft directory. So, I went on the standard programming self study course of Youtube tutorials and websites like *freecodecamp.com*. Eventually, I thought that I knew enough to creat a mod for Minecraft, but it all came crashing down when it turns out, Minecraft is written in Java not JavaScript. Without wind in my sails, I put down programming for half a decade until I decided to major in Computer Science. The first lanague I learned was Java and now JavaScript
 
 ## Whats the Difference?
-Even though they both have "Java" in their name, the two langauges are quite different. The most apparent 
-Prior to taking ICS 314 (Intro to Software Engineering) I had basic knowledge of JavaScript and it's syntax, but I never worked on any projects
+### The Typing
+Even though they both have "Java" in their name, the two langauges are quite different. The most jarring change when I learned JavaScript coming from a Java background  is that JavaScript is not a strongly typed langauge. This means that the data type of a variable can change. The ability for variables to dynamically change throughout the program can be useful, but, in my opinion, it often leads to unforseen bugs that may be hard to find.
 
-Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+### The Syntax
+#### Java
+```ruby
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+}
 
-I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+```
 
-I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
+#### JavaScript
+```ruby
+console.log("Hello world");
+```
+Without any knowledge of either language, just looking at a simple program that prints "Hello world" to the console, it is clear that JavaScript's readability is way better than the verbose syntax of Java. This emphasis of readbilty and simplicty is prevelant throughout all of all of JavaScript. This is especially true after the advent of ES6. ES6 added many features like the arrow function that simplifies the creation of functions to a single line or for of loops that easily lets you iterate through an iterable object like an array.
+
+## Which One is Better?
+With all that said it seems like JavaScript is the clear winner because it is more readable, the syntax is cleaner and is easier to learn with no programming experience. However, Java does have some advantages. The strictness of Java can help build good programming habits that you might be able to get away with in JavaScript. fortunately, learning Java or JavaScript are not mutually exclusive, so the real question is why not learn both?
