@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/pokemonGui/pokeball.jpg
 title: "Prehistoric Pokemon"
 date: 2021
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "A crude UI that simulates catching Pokemon."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" width="200" src="../img/pokemonGui/129-1291789_pokemon-blue-blastoise-sprite-hd-png-download.png">
 
 This project was my final project for ICS 211 (Intro to Programming II) and it was also my first time working with a team to develop a piece of software. The purpose of this project was to apply everything that we learned up to that point in one comprehensive project. This includes things like binary search trees to search for your caught Pokemon, object heiarchy be creating a sub Pokemon from a base template Pokemon class and, in my opinion, the most important part was using Github to collaborate with our team mates. All of this was painfully packaged through GUI made with JFrames.
 
