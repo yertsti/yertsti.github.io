@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/sha-1-project/sha-1Image.png
 title: "Baby Steps"
-date: 2021
+date: 2017
 published: true
 labels:
   - JavaScript
