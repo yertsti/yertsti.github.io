@@ -27,4 +27,4 @@ This was my first time creating a piece of software with no boiler plate or exam
 
 <hr>
 
-Source: <a href="https://github.com/yertsti/sha-1"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/yertsti/sha-1"><i class="large github icon "></i>sha-1</a>
