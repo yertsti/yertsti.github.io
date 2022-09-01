@@ -27,4 +27,4 @@ For my first collabrative project, the main thing I learned is that things happe
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/yertsti/pokemonGui"><i class="large github icon "></i>Pokemon Gui Repository</a>
