@@ -10,7 +10,7 @@ labels:
   - Programming
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/starting-js/JavaScript-logo.png">
+<img width="100px" class="rounded float-start pe-4" src="../img/programming-as-a-hobby/happy-man-with-computer-clip-art-vector_gg62182849.jpg">
 
 ## Programming as a Hobby
 
