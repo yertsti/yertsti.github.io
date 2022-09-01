@@ -4,7 +4,7 @@ type: project
 image: img/cotton/cotton-square.png
 title: "Prehistoric Pokemon"
 date: 2021
-published: true
+published: false
 labels:
   - Java
   - GitHub
