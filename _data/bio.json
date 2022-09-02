@@ -33,11 +33,19 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2024)",
       "studyType": "B.S.",
-      "startDate": "2019-01-01",
+      "startDate": "2022-01-01",
       "endDate": "Present",
-      "courses": [
+      "courses": [ICS 311
       ]
-    }
+      {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "A.S.",
+      "startDate": "2019-01-01",
+      "endDate": "2021",
+      "courses": [ICS 111, ICS 141, ICS 211, ICS 212, ICS 241 
+      ]
+    },
   ],
   "awards": [
     {
