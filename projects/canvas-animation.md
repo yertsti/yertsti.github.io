@@ -4,15 +4,14 @@ type: project
 image: img/firstProject/Screenshot 2022-08-31 203703.png
 title: "Animating With Canvas"
 date: 2016
-published: false
+published: true
 labels:
   - JavaScript
   - Web Development
 summary: "Animation on a web page done with canvas and JavaScript"
 ---
-<iframe src="https://giphy.com/embed/TvBkJ4U8nYlDZMIRbt" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/TvBkJ4U8nYlDZMIRbt"></a></p>
-![](img/firstProject/giphy.gif)
 
+<img width="300" src="../img/firstProject/giphy.gif">
 This project utulizes canvas in HTML to create and display cool 2D graphics using JavaScript. This script draws colored circles that orbit around your mouse in the window. The functionality of this is non-existant, but it does look pretty cool. Because this was my first time creating anything more than a simple algorithm that prints to console, pretty much everything was derived from a tutorial from Youtube.
 
 A majority of this project was creating the code to run the animation in JavaScript and a very small portion of it was creating the canvas in html to display the animation on the web page. 
