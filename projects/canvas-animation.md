@@ -11,7 +11,6 @@ labels:
 summary: "Animation on a web page done with canvas and JavaScript"
 ---
 
-<img class="img-fluid" src="../img/sha-1-project/sha-1Code.png">
 
 This project utulizes canvas in HTML to create and display cool 2D graphics using JavaScript. This script draws colored circles that orbit around your mouse in the window. The functionality of this is non-existant, but it does look pretty cool. Because this was my first time creating anything more than a simple algorithm that prints to console, pretty much everything was derived from a tutorial from Youtube.
 
