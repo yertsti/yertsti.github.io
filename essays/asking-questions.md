@@ -4,7 +4,7 @@ type: essay
 title: "A Functional Hobby"
 # All dates must be 2022-08-31 format!
 date: 2022-08-30
-published: true
+published: false
 labels:
   - Learning
   - Programming
