@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Getting More Out of Your Questions"
 # All dates must be 2022-08-31 format!
-date: 2022-08-30
+date: 2022-09-08
 published: true
 labels:
   - Learning
