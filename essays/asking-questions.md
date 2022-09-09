@@ -7,7 +7,7 @@ date: 2022-08-30
 published: true
 labels:
   - Learning
-  - Programming
+  - Smart Questions
 ---
 
 
