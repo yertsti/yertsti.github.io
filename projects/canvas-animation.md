@@ -28,4 +28,4 @@ With hindsight, if I were to re-create this project without the aid of a tutoria
 
 <hr>
 
-Source: <a href="https://github.com/yertsti/canvas-circles"><i class="large github icon "></i>sha-1</a>
+Source: <a href="https://github.com/yertsti/canvas-circles"><i class="large github icon "></i>canvas animation</a>
