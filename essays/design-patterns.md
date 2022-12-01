@@ -10,35 +10,19 @@ labels:
   - Development
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/starting-js/JavaScript-logo.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/design-patterns/designpatterns.png">
 
-## Letting other people do the hard work (WIP)
-In our modern world there are many luxuaries that we take for granted because 
+## Creating something from nothing is hard (WIP)
+In our modern world there are many luxuries that we take for granted, but we rarely think about all the trials and tribulations that went into creating new things like the clothes we wear, to the food we eat, even the computer used to write this. If you were to think about actually creating something as common as a T-shirt, you probably wouldn't even know where to start. Fortunately, someone else already figured out how to do it and you can just use their infrastructure to create a custom T-shirt by just giving them a design. This is an example of a Design Pattern, more specifically this design pattern is called a factory. A design pattern is just a common abstract solution to common problems. In the example above, the "factory" design pattern doesn't only work for T-shirts it could work for anything that has a common base with a sprinkling of customization on top.
+The T-shirt factory can pump out infinite variations of a T-shirt by changing the design on it, but they all share the fact that they are all T-shirts. 
 
-## What's the Difference?
-#### The Typing
-Even though they both have "Java" in their name, the two languages are quite different. The most jarring change when I learned JavaScript coming from a Java background  is that JavaScript is not a strongly typed language. This means that the data type of a variable can change. The ability for variables to dynamically change throughout the program can be useful, but, in my opinion, it often leads to unforseen bugs that may be hard to find.
+Now that we know what a design pattern is you might be wondering what other design patterns are out there. There are tons and they vary depending on what you are working on. Some examples of design patterns in web development are like the singleton or observer. More can be found out information about the specifics can be found [here](https://www.patterns.dev/posts/#design-patterns).
 
-#### The Syntax
-##### Java
-```ruby
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello world");
-    }
-}
+## Don't re-invent web development
+Creating a website is a significant undertaking. Fortunately, for us modern developers, creating a website has been made infinitely easier thanks to all the previous developers who had to come up with useful design patterns for common problems. An example of a design pattern that I had to use is the singleton design pattern for the database. You don't want more than one database because if you update something one database, the other one won't be updated. The singleton design pattern solves this issue by only allowing one instance of the database.
 
-```
+<img width="300" class="rounded float-start pe-4" src="../img/design-patterns/singleton-comic-1-en.png">
 
-##### JavaScript
-```ruby
-console.log("Hello world");
-```
-Without any knowledge of either language, just looking at a simple program that prints "Hello world" to the console, it is clear that JavaScript's readability is way better than the verbose syntax of Java. This emphasis of readability and simplicity is prevalent throughout all of JavaScript. This is especially true after the advent of ES6. ES6 added many features like the arrow function that simplifies the creation of functions to a single line or for of loops that easily lets you iterate through an iterable object like an array.
+Another example would be the observer. This was done to watch for state changes of an object to update the view.
 
-## Athletic Software Engineering
-<img width="150px" class="rounded float-start pe-4" src="../img/starting-js/pngtree-alarm-clock-alarm-clip-art-png-image_5861766.jpg">
-The ease of syntax in JavaScript the pedagogy of Athletic Software Engineering. The main idea of Athletic Software Engineering is that you do "WODS" which are just problems that do, but there is a time limit and if you do not finish in time you get no credit. I think it is a very interesting approach to teaching software development because in the real world knowing all the concepts behind software development can only do so much if you are unable to implement it in a reasonable amount of time. The time limit forces us to ingrain these design patterns to the point where they are second nature. It also puts us into a high pressure, relatively low consequence situation that will help prime us for the real world. The grading is all or nothing, you either complete the WOD in the requisite amount of time or you don't. As a student, I would prefer if there was partial credit, but I do understand that in the real world you need to deliver a functioning product in the requisite amount of time, there is no partial credit.
-
-## Which One is Better?
-With all that said it seems like JavaScript is the clear winner because it is more readable, the syntax is cleaner and is easier to learn with no programming experience. However, Java does have some advantages. The strictness of Java can help build good programming habits that you might be able to get away with in JavaScript. Fortunately, learning Java or JavaScript are not mutually exclusive, so the real question is why not learn both?
+Previous developers worked hard on developing solutions to common problems, so we might as well take advantage of it and spend our time developing instead of solving problems already that already have an accepted solution.
