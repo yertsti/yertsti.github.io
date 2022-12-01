@@ -3,8 +3,8 @@ layout: essay
 type: essay
 title: "JavaScript !== Java"
 # All dates must be YYYY-MM-DD format!
-date: 2022-08-30
-published: false
+date: 2022-12-01
+published: true
 labels:
   - Design Patterns
   - Development
