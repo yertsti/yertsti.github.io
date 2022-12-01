@@ -12,8 +12,8 @@ labels:
 
 <img width="100px" class="rounded float-start pe-4" src="../img/starting-js/JavaScript-logo.png">
 
-## Accidentally Learning JavaScript
-
+## Letting other people do the hard work (WIP)
+In our modern world it is very easy to take things for granted like the food we eat to the clothes we wear because they are so easily available for most in the modern world.  
 
 ## What's the Difference?
 #### The Typing
