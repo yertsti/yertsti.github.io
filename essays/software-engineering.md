@@ -15,35 +15,10 @@ labels:
 On the surface software engineering just seems like typing a collectoin of characters on a computer that eventually comes together and takes the form of a functional program, but that only scratches the surface of the software engineering iceberg. Behind the scences, there are many other aspects of software engineering that is required to make a good program. If this program is large enough that it requires the cooperation of multiple people, it becomes even more complex to coordinate many people working on the same thing. This essay will attempt to shine some light on high level things that are required to succesfully engineer a piece of software. These being coding standards, agile project management and ehtics in software development.
 
 ### Coding Standards
-It is true that every piece of software can be boiled down to an annoyingly long string of ones and zeroes. I am sure I don't need to explain why writing a piece of software like that isn't good. 
+It is true that every piece of software can be boiled down to an annoyingly long string of ones and zeroes or an entier program all on one line with a semicolons sprinkled throughout. Even though it may get the job done and functions as intended, but if you or anyone else has to go back to add some features or fix a bug it will be pure pain and suffering trying to decipher a single line of code. Fortunately Coding Standards can help make code more efficient and more readable and by extension easier to maintain and work with. A very common coding standard is DRY which is an acronym for "Don't repeat yourself". Essentially, if there is a block of code being used in multiple places, putting that block of code into a funciton and using that function instead will turn a block of code into a sinlge line, increasing readbalility. Coding standards don't directly affect teh functionality of your program, but it offers good guidelines to make code easier to read and maintain.
 
-## Smart Question
-An example of a smart question would be this question <a href="https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array" target="_blank">here</a>. The question is asking why their program, that iterates through an array and sums the values if the value is greater than a number, is so much faster when the data is presorted compared to unsorted and the title is "Why is processing a sorted array faster than processing an unsorted array?" which is concise and applicable to the question. On the surface it seems quite strange because you would think that iterating through an array would take the same time regardless of the order of the data. The intrigue of the question adds to its value as a smart question because people generally don't want to answer the same boring question over and over again. The asker also provides their own theories as to why this might be the case. One being that it might be language specific or compiler black magic, so they try it again in Java instead of C++ and get a similar result. The asker put in effort in trying to find the solution. Because the author asked a smart question; they got an equally smart answer. The answer being a very well written explanation of branch prediction. After a quick Google search, I was able to find the explanation of branch prediction, but this question was asked 10 years ago, so maybe the information was not as available. Either way the, the question generated a lot of good answers, and this is most likely due to the question being a smart question.
-<p>A snippet of code from the question on Stack Overflow</p>
+### Agile Project Management
+Agile project management is a methodology of project management. It is often used with software development. It works by itterativly adding features and functions to your project and making it available for feedback very quickly. This has the advantagous of getting feedback for the feature quickly and it makes finding bugs that may have come with the implementation of that feature easier because only a single feature was addedi, so it is easier to focus in on that area and see what may be causing bugs. It also makes it easier to change the course the project will take because you are recieving updates on it so frequently compared to the traditional route of creating the entire project before getting user input. Agile project management is very good methodology to quickly develop a piece of software.
 
-```cpp    
-// Test
-    clock_t start = clock();
-    long long sum = 0;
-    for (unsigned i = 0; i < 100000; ++i)
-    {
-        for (unsigned c = 0; c < arraySize; ++c)
-        {   // Primary loop
-            if (data[c] >= 128)
-                sum += data[c];
-        }
-    }
-```
-
-
-## Not So Smart Question
-A classic archetype for a not so smart question is just copy pasting your homework problem and asking for a solution. An example of this type of question can be found <a href="https://stackoverflow.com/questions/35245296/calculating-an-average-with-an-array-in-java-homework" target="_blank">here</a>. This person has several basic computational problems in Java and is asking for a solution to find the average of a set of numbers. The asker just bluntly says they don't know how to find the average and does not show that they at least attempted the problem by showing their solution that does not work. It also does not help that the answer to this question could be found with a quick Google search. I understand that this question was asked by someone who is just getting into programming and that it is understandable to have questions that may seem simple to someone more practiced, but that does not change the fact that the information was already out there, and they couldn't be bothered to look for it. Because they asked such a low effort question, they get a low effort response as a result. The response being the two steps of finding the average in plain English. The question asker still does not know how to find the average of a set of numbers in Java and wasted the time of the answerer. All these combined makes this question a bad question. Also, if it is a homework assignment, why not just ask your teacher for help.
-<p>Their attempt at the average</p>
-
-```java
-        int average = 0;                         Here
-        for (int i = 0; i < nums.length; i++) {  |
-            sum = sum + nums[i];                 |
-        }
-        System.out.println("Average value is " + average); and here.
-```
+## Conclusion
+I only have experience working with the above techniques in respect to web development, but it can be applied to any project that involves software development. Interestingly, none of the things mentioned above actually involve any programming. They are still very important because without them, software development would be a genuine pain to do. Fortuantely, there is tons of information out there that can help smooth the software development process for any project. Getting started into the world of software development can be daunting, but if you employ good practices, it can be very rewarding.  
