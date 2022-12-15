@@ -28,6 +28,14 @@
       "keywords": [ "Windows", "Unix", "Git/GitHub", "g++"]
     }
   ],
+  "work": [
+    {
+      "name": "UH Manoa ITS",
+      "position": "Web Developer",
+      "startDate": "2022-09-14",
+      "summary": "Developer for UH Groupings"
+    }
+  ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
@@ -35,7 +43,7 @@
       "studyType": "B.S.",
       "startDate": "2022-01-01",
       "endDate": "Present",
-      "courses": [ICS 311, ICS 314
+      "courses": ["ICS 311", "ICS 314"
       ]
     },
       {
@@ -44,7 +52,7 @@
       "studyType": "A.S.",
       "startDate": "2019-01-01",
       "endDate": "2021",
-      "courses": [ICS 111, ICS 141, ICS 211, ICS 212, ICS 241 
+      "courses": ["ICS 111", "ICS 141", "ICS 211", "ICS 212", "ICS 241"
       ]
     }
   ],
