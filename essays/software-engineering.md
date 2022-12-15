@@ -4,7 +4,7 @@ type: essay
 title: "Behind the scenes of software engineering"
 # All dates must be 2022-08-31 format!
 date: 2022-12-14
-published: false
+published: true
 labels:
   - Software Engineering
   - Education
