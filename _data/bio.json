@@ -33,7 +33,12 @@
       "name": "UH Manoa ITS",
       "position": "Web Developer",
       "startDate": "2022-09-14",
-      "summary": "Developer for UH Groupings"
+      "endDate": "Present",
+      "summary": "Developer for UH Groupings",
+      "highlights": [
+        "Use Git and Github to collaborate with other team members",
+        "Implemented Code Scanning into Github workflow to ensure no vulnerabilities"
+      ]
     }
   ],
   "education": [
@@ -61,7 +66,7 @@
       "title": "Dean's List",
       "date": "2019-2021",
       "awarder": "Kapiolani Community College",
-      "summary": "Cummulative average GPA of 3.5 or higher."
+      "summary": "Cumulative average GPA of 3.5 or higher."
     }
   ],
   "references": [
