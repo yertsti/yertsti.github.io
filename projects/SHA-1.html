@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="SHA-1 Implementation | Trey Yasunaga | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/yertsti.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Trey Yasunaga | Professional Portfolio">
+    <meta property="og:url" content="https://yertsti.github.io/projects/SHA-1.html">
+    <meta property="og:title" content="SHA-1 Implementation | Trey Yasunaga | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/yertsti.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>SHA-1 Implementation | Trey Yasunaga | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Trey Yasunaga</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">SHA-1 Implementation</h1>
+ <p><img class="img-fluid" src="../img/sha-1-project/sha-1Code.png" /></p>
+
+<p>This was the final project for ICS 212, a class about program structures. All of our assignments were done in either C or C++ on a UH hosted unix server via the terminal. This is also where we get to choose our camps of either Vim or Emacs. I personally liked vim more, but it might just be because we learned it first. Before we could implement SHA-1 we had to learn what SHA-1 is. It is a hashing algorithm. Hashing algorithms deterministically convert any length input into a fixed length output. An ideal hashing algorithm will always return a unique hashed output from an input. This was the case for SHA-1 until recently in 2017 when it was broken be causing a collisions (the same output from two seperate inputs).</p>
+
+<p>Implementing SHA-1 was quite the step up compared to all of our previous assignments. The hardest part was reading the data from the file and converting it into discrete 512 bit chunks that are then each consecutively shoved through the hashing function that eventually creates the hashed value. The hashing funciton was quite interesting to work with beacuse it uses a bunch of bitwise black magic operators that takes in any sized input and mushes it down into a nicely packaged 160 bit output.</p>
+
+<p>This was my first time creating a piece of software with no boiler plate or example code, so I had to learn the ways of google. Eventually, I came to the realization that every question I asked had already been asked somewhere on the internet. It was just a matter of if I could find it. This is probably the most important experience I gained from this project because being able to ask the right questions can do wonders in any field, but especially in programming because it is so well documented and collbartive.</p>
+
+<hr />
+
+<pre>
+
+</pre>
+
+<hr />
+
+<p>Source: <a href="https://github.com/yertsti/sha-1"><i class="large github icon "></i>sha-1</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+{
+  "basics": {
+    "name": "Trey Yasunaga",
+    "label": "Student",
+    "picture": "https://github.com/yertsti.png",
+    "email": "treyyy@hawaii.edu",
+    "phone": "808-636-3396",
+    "website": "https://yertsti.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "yertsti", "url": "http://github.com/yertsti" },
+      { "network": "linkedin", "username": "treyyasunaga", "url": "http://linkedin.com/in/trey-yasunaga" }
+    ]
+  },
+  "interests": [
+    { "name": "Web Development" },
+    { "name": "Game Development" },
+    { "name": "Artifical Inteligence" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Unix", "Git/GitHub", "g++"]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa ITS",
+      "position": "Web Developer",
+      "website": "https://www.hawaii.edu/its/uhgroupings/",
+      "startDate": "2022-09-14",
+      "endDate": "Present",
+      "summary": "Developer for UH Groupings",
+      "highlights": [
+        "Use Git and Github to collaborate with other team members",
+        "Implemented Code Scanning into Github workflow to ensure no vulnerabilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2022-01-01",
+      "endDate": "Present",
+      "courses": ["ICS 311", "ICS 314"
+      ]
+    },
+      {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "A.S.",
+      "startDate": "2019-01-01",
+      "endDate": "2021",
+      "courses": ["ICS 111", "ICS 141", "ICS 211", "ICS 212", "ICS 241"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2019-2021",
+      "awarder": "Kapiolani Community College",
+      "summary": "Cumulative average GPA of 3.5 or higher."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
