@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/thats-my-spot/logo.png
+image: img/thats-my-spot/square-landing.png
 title: "That's My Spot!"
 date: 2022
 published: True
@@ -14,7 +14,6 @@ summary: "ICS 314 final project that makes parking easier at UH Manoa zone 20 pa
 
 <img class="img-fluid" src="../img/thats-my-spot/thats-my-spot-landing.png" alt="image of landing page">
 
-### 
 
 ## Overview
 The one issue that has plagued students of UH Manoa ever since the invention of the car is finding a parking stall. This project is meant to alleviate that issue by allowing those with a parking pass to reserve an empty stall, so they can park there. It also allows people without a parking pass to get a stall, but they have to pay and are assigned one. 
