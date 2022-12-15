@@ -30,8 +30,9 @@
   ],
   "work": [
     {
-      "name": "UH Manoa ITS",
+      "company": "UH Manoa ITS",
       "position": "Web Developer",
+      "website": "https://www.hawaii.edu/its/uhgroupings/",
       "startDate": "2022-09-14",
       "endDate": "Present",
       "summary": "Developer for UH Groupings",

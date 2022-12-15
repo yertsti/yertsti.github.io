@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/thats-my-spot/thats-my-spot-landing.png
+image: img/thats-my-spot/logo.png
 title: "That's My Spot!"
 date: 2022
 published: True
